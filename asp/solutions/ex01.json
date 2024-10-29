@@ -1,0 +1,36 @@
+{
+    "Solver": "clingo version 5.4.0",
+    "Input": [
+        "socialDistance.lp",
+        "instances/ex01.lp"
+    ],
+    "Call": [
+        {
+            "Witnesses": [
+                {
+                    "Value": [
+                        "path(3,0,2,0)",
+                        "path(2,0,1,0)",
+                        "path(1,0,0,0)",
+                        "path(0,0,0,1)",
+                        "path(0,1,0,2)",
+                        "path(0,2,0,3)"
+                    ]
+                }
+            ]
+        }
+    ],
+    "Result": "SATISFIABLE",
+    "Models": {
+        "Number": 1,
+        "More": "no"
+    },
+    "Calls": 1,
+    "Time": {
+        "Total": 0.005,
+        "Solve": 0.0,
+        "Model": 0.0,
+        "Unsat": 0.0,
+        "CPU": 0.005
+    }
+}
