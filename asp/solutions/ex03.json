@@ -2,7 +2,7 @@
   "Solver": "clingo version 5.4.0",
   "Input": [
     "socialDistance.lp",
-    "instances/ex02.lp"
+    "instances/ex03.lp"
   ],
   "Call": [
     {
